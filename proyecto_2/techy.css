@@ -1,0 +1,23 @@
+#cursorImagen {
+	position: absolute;
+	display: none;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+#cursorImagen:hover {
+	transform: scale(1.1);
+}
+
+#liloImagen {
+	position: absolute;
+    transform: scaleX(-1);
+    left: 70%;
+	z-index: -1;
+}
+
+body {
+	
+	background: rgba(159, 74, 225, 0.5);
+	
+}
