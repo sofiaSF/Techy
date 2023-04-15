@@ -3,6 +3,7 @@
 	display: none;
 	transition: all 0.2s ease-in-out;
 	cursor: pointer;
+	z-index:2;
 }
 
 #cursorImagen:hover {
@@ -13,11 +14,16 @@
 	position: absolute;
     transform: scaleX(-1);
     left: 70%;
-	z-index: -1;
+	z-index: 1;
+}
+
+#jumbaImagen {
+	position: relative;
+	cursor: pointer;
 }
 
 body {
 	
-	background: rgba(159, 74, 225, 0.5);
+	background: rgba(159, 74, 225, 0.5); */
 	
 }
