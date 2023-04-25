@@ -59,7 +59,7 @@ function agregarEventoDobleClick(cursorImagen){
 /* fin evento número 3 */
 
 /********************************************
-	con este código nuestra imágen va a agrandarse cuando mantengamos clickeada la imágen y movamos el mouse (arrastrar)
+	con este código nuestra imágen se agrandará si mantenemos click izquierdo y movamos el cursor (arrastrar)
 /********************************************/
 /* copiá el código del evento número 5 acá */
 function agregarEventoArrastrar(cursorImagen){
