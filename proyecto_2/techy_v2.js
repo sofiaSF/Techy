@@ -3,7 +3,7 @@
 /********************************************/
 /* copiá el código del evento número 1 acá */
 function agregarEventoMousemove(cursorImagen){
-	var mousemove = document.addEventListener("mousemove", function(event) {
+	document.addEventListener("mousemove", function(event) {
 		var x = event.clientX;
 		var y = event.clientY;
 		cursorImagen.style.display = "block";
@@ -59,7 +59,7 @@ function agregarEventoDobleClick(cursorImagen){
 /* fin evento número 3 */
 
 /********************************************
-	con este código nuestra imágen se agrandará si mantenemos click izquierdo y movamos el cursor (arrastrar)
+	con este código nuestra imágen va a agrandarse cuando mantengamos clickeada la imágen y movamos el mouse (arrastrar)
 /********************************************/
 /* copiá el código del evento número 5 acá */
 function agregarEventoArrastrar(cursorImagen){
@@ -118,7 +118,6 @@ agregarEventoClick(cursorImagen);
 agregarEventoDobleClick(cursorImagen);
 agregarEventoArrastrar(cursorImagen);
 agregarEventoParaAgregarALilo(cursorImagen);
-
 
 })
 
