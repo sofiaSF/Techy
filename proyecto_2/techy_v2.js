@@ -61,7 +61,7 @@ function agregarEventoDobleClick(cursorImagen){
 /********************************************
 	con este código nuestra imágen va a agrandarse cuando mantengamos clickeada la imágen y movamos el mouse (arrastrar)
 /********************************************/
-/* copiá el código del evento número 5 acá */
+/* copiá el código del evento número 4 acá */
 function agregarEventoArrastrar(cursorImagen){
 	cursorImagen.addEventListener("drag", function(event) {
 		var escala = 0.01;
@@ -69,7 +69,7 @@ function agregarEventoArrastrar(cursorImagen){
 		escalarImagen(cursorImagen,cursorImagen.dataset.escala);
 	});
 }
-/* fin evento número 5 */
+/* fin evento número 4 */
 
 /********************************************
 	con este código cuando arrastremos sobre Lilo nuestra imágen cambiará
